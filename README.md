@@ -9,8 +9,10 @@
 ###### Vivo en San Salvador de Jujuy, tengo 17 años y estoy cursando la secundaria.
 
 **Brian Salas:**
-###### Soy uno de los miembros del proyecto Maritiza Estilos, él cual me tiene estusiasmado y con las expectativas altas de su resultado final. Actualmente cuento con 20 años, resido en la ciudad de San Salvador de Jujuy, egresado de un colegio técnico, donde comenzo mi pasión en el mundo de la Informática. En definitiva, me comprometo con mi grupo a dar lo mejor y aportar en todo lo necesario para lograr un resultado exitoso.
-_
+###### Soy uno de los miembros del proyecto Maritza Estilos, él cual me tiene estusiasmado y con las expectativas altas de su resultado final. Actualmente cuento con 20 años, resido en la ciudad de San Salvador de Jujuy, egresado de un colegio técnico, donde comenzo mi pasión en el mundo de la Informática. En definitiva, me comprometo con mi grupo a dar lo mejor y aportar en todo lo necesario para lograr un resultado exitoso.
+
+**Maximiliano Gonzalez:**
+###### Soy un estudiante de 24 años que reside en la ciudad de La Quiaca. Actualmente, estoy cursando el Profesorado de Tecnología, y quiero compartir con ustedes mi pasión por el mundo de la tecnología y la informática. Además de mi compromiso con mis estudios en el Profesorado de Tecnología, también estoy entusiasmado de formar parte de este proyecto. Es una gran oportunidad para poner en práctica las habilidades adquiridas junto a mis compañeros del curso.
 
 ### Sitios web de Referencia: 
 1. [Carolina Herrera](https://www.carolinaherrera.com/ww/es/ "Carolina Herrera")
