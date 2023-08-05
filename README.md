@@ -14,6 +14,9 @@
 **Maximiliano Gonzalez:**
 ###### Soy un estudiante de 24 años que reside en la ciudad de La Quiaca. Actualmente, estoy cursando el Profesorado de Tecnología, y quiero compartir con ustedes mi pasión por el mundo de la tecnología y la informática. Además de mi compromiso con mis estudios en el Profesorado de Tecnología, también estoy entusiasmado de formar parte de este proyecto. Es una gran oportunidad para poner en práctica las habilidades adquiridas junto a mis compañeros del curso.
 
+**Leandro Vilte:**
+###### Hola, tengo 17 años y estoy en mi ultimo año de secundaria, vivo en Abra Pampa, y me empece a interesar por el mundo de la programación porque la orientación de mi colegio es laboratorio tanto de robótica y de programación en conjunto. Y aunque lo que veo en mi colegio no es parecido a lo visto en el curso, ya que es más orientada a programar arduino, tengo muchas ganas de seguir aprendiendo.
+
 ### Sitios web de Referencia: 
 1. [Carolina Herrera](https://www.carolinaherrera.com/ww/es/ "Carolina Herrera")
 1. [ONDA](https://tiendaonda.com.ar/ "ONDA")
