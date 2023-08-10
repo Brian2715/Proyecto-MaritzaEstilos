@@ -24,7 +24,7 @@
 1. [Ana Pugliesi](https://www.anapugliesi.com/shop/ "Ana Pugliesi")
 1. [Mechita Collection](https://mechitacollection.com/ "Mechita Collection")
 
-##### Los mencionados sitios web, fueron elegidos por su diseño visual, ya que contienen con una estética atractiva y profesional. Sus funcionalidades tambien son un punto a destacar, por la manera que implementan los sistemas de navegación intuitiva y eficientesm, ademas de las interacciones interactivas. Como asi tambien el contenido y su mensaje donde tenemos una guia de como estructurar nuestras secciones de contenido y comunicar efectivamente el producto y la oferta
+###### Los mencionados sitios web, fueron elegidos por su diseño visual, ya que contienen con una estética atractiva y profesional. Sus funcionalidades tambien son un punto a destacar, por la manera que implementan los sistemas de navegación intuitiva y eficientesm, ademas de las interacciones interactivas. Como asi tambien el contenido y su mensaje donde tenemos una guia de como estructurar nuestras secciones de contenido y comunicar efectivamente el producto y la oferta
 
 ### Wireframes:
 - [Home](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=MaLROtj61pb&publicid=89acffb718a048058ff4ce60eb08033d#/page/ef1159c34b3d4634a9ab3f4c6f7c81a8 "Home")
