@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/styles-contacto.css">
+    <%- include('./partials/head.ejs')%>
+</head>
+<body>
+    <header>
+        <%- include('./partials/header.ejs')%>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-form">
+            <form class="form" action="">
+                <h2>CONTACTO</h2>
+                <div>
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido">
+                </div> 
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="number"></label>
+                    <input type="number" name="number" placeholder="Telefono">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea"  placeholder="Escriba aqui su mensaje"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <%- include('./partials/footer.ejs')%>
+    </footer>
+    
+</body>
+</html>
