@@ -5,6 +5,9 @@ const mainController = {
     },
     contacto: (req, res) => {
         return res.render('contacto')
+    },
+    buscador: (req, res) => {
+        return res.render('buscador')
     }
 };
 

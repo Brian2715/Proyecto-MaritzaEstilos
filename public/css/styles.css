@@ -6,16 +6,48 @@
 header{
     width: 100%;
     background-color: rgb(175, 20, 105); ;
-    padding: 10px;
+    padding: 5px 0px;
+}
+
+.contenedor-principal{
+    display: flex;
+    border: 1px solid #ebebeb;
+    /* justify-content: space-around; */
+    justify-content: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.logo-header{
+    border: 1px solid #ebebeb;   
+    width: 10%;
 }
 
 .titulo-header{
-    width: 100%;
+    width: 80%;
     font-size: 25px;
     text-align: center;
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     color: white;
 }
+
+.button-header{
+    display: flex;
+    border: 1px solid #ebebeb;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-header a{
+    text-decoration: none; /* saca el subrayado que contiene el menu de navegacion */
+    color: black;
+}
+.titulo-header a{
+    text-decoration: none; /* saca el subrayado que contiene el menu de navegacion */
+    color: white;
+}
+
 
 .navegacion {
     display: flex;
@@ -46,7 +78,7 @@ header{
 .banner-header{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 .banner{
     width: 50%;
@@ -55,6 +87,7 @@ header{
 main{
     width: 100%;
     background-color: #ebebeb;
+    padding-top: 5px; 
 }
 
 .main-section-one{
