@@ -43,6 +43,7 @@ header{
     text-decoration: none; /* saca el subrayado que contiene el menu de navegacion */
     color: black;
 }
+
 .titulo-header a{
     text-decoration: none; /* saca el subrayado que contiene el menu de navegacion */
     color: white;

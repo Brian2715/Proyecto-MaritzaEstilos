@@ -13,89 +13,45 @@
                 <img class="banner" src="/img/C1.PNG" alt="banner">
             </div>
             <section class="main-section-one">
-                <h3 class="titulo">Vestidos Destacados</h3>
+                <h3 class="titulo">Vestidos Cena Blanca</h3>
+                <% cena.forEach((prod) => {%>
                 <article class="card">
-                    <img class="img_prod" src="/img/cena-1.jpeg" alt="vestido-1" >
+                    <img class="img_prod" src="/img/<%= prod.image %>" alt="Imagen de <%= prod.name%>" >
                     <nav class="card-bottom">
-                        <div class="vestido">Vestido Cena Blanca</div>
-                        <div class="precio">$6670</div>
+                        <div class="vestido"><%= prod.name%></div>
+                        <div class="precio"><%= prod.price%></div>
                         <div class="comprar">
                             <a href="/">Comprar</a>
                         </div>  
                     </nav>  
                 </article>
+                <% }) %>
+                <h3 class="titulo">Vestidos de XV</h3>
+                <% quince.forEach((prod) => {%>
                 <article class="card">
-                    <img class="img_prod" src="/img/cena-2.jpeg" alt="vestido-1" >
+                    <img class="img_prod" src="/img/<%= prod.image %>" alt="Imagen de <%= prod.name%>" >
                     <nav class="card-bottom">
-                        <div class="vestido">Vestido Cena Blanca</div>
-                        <div class="precio">$6670</div>
+                        <div class="vestido"><%= prod.name%></div>
+                        <div class="precio"><%= prod.price%></div>
                         <div class="comprar">
                             <a href="/">Comprar</a>
                         </div>  
                     </nav>  
                 </article>
+                <% }) %>
+                <h3 class="titulo">Vestidos de Reina</h3>
+                <% reina.forEach((prod) => {%>
                 <article class="card">
-                    <img class="img_prod" src="/img/cena-3.jpeg" alt="vestido-1" >
+                    <img class="img_prod" src="/img/<%= prod.image %>" alt="Imagen de <%= prod.name%>" >
                     <nav class="card-bottom">
-                        <div class="vestido">Vestido Cena Blanca</div>
-                        <div class="precio">$6670</div>
+                        <div class="vestido"><%= prod.name%></div>
+                        <div class="precio"><%= prod.price%></div>
                         <div class="comprar">
                             <a href="/">Comprar</a>
                         </div>  
                     </nav>  
                 </article>
-                <article class="card">
-                    <img class="img_prod" src="/img/cena-4.jpeg" alt="vestido-1" >
-                    <nav class="card-bottom">
-                        <div class="vestido">Vestido Cena Blanca</div>
-                        <div class="precio">$6670</div>
-                        <div class="comprar">
-                            <a href="/">Comprar</a>
-                        </div>  
-                    </nav>
-                </article>
-            </section>
-            <section class="main-section-one">
-                <article class="card">
-                    <img class="img_prod" src="/img/quinceañera-1.jpeg" alt="vestido-1" >
-                    <nav class="card-bottom">
-                        <div class="vestido">Vestido de XV</div>
-                        <div class="precio">$6670</div>
-                        <div class="comprar">
-                            <a href="/">Comprar</a>
-                        </div>  
-                    </nav>  
-                </article>
-                <article class="card">
-                    <img class="img_prod" src="/img/quinceañera-2.jpeg" alt="vestido-1" >
-                    <nav class="card-bottom">
-                        <div class="vestido">Vestido de XV</div>
-                        <div class="precio">$6670</div>
-                        <div class="comprar">
-                            <a href="/">Comprar</a>
-                        </div>  
-                    </nav>  
-                </article>
-                <article class="card">
-                    <img class="img_prod" src="/img/quinceañera-3.jpeg" alt="vestido-1" >
-                    <nav class="card-bottom">
-                        <div class="vestido">Vestido de XV</div>
-                        <div class="precio">$6670</div>
-                        <div class="comprar">
-                            <a href="/">Comprar</a>
-                        </div>  
-                    </nav>  
-                </article>
-                <article class="card">
-                    <img class="img_prod" src="/img/modelo-1.jpeg" alt="vestido-1" >
-                    <nav class="card-bottom">
-                        <div class="vestido">Vestido de XV</div>
-                        <div class="precio">$6670</div>
-                        <div class="comprar">
-                            <a href="/">Comprar</a>
-                        </div>  
-                    </nav>  
-                </article>
+                <% }) %>
             </section>
         </main>
         <footer>

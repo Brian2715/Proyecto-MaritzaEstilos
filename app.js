@@ -1,25 +1,34 @@
+// ************ Require's ************
 const express = require('express');
-const app = express();
 const path = require('path');
 
-const mainRouter = require('./src/routes/mainRouter');
-app.use('/', mainRouter);
 
-app.use(express.static(path.resolve(__dirname, 'public')));
+// ************ express() - (don't touch) ************
+const app = express();
 
+
+// ************ Servidor PORT- (don't touch) ************
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
     console.log('Servidor funcionando');
 });
 
-/*app.get('/', (req, res) =>{
-    res.sendFile(__dirname + '/views/home.html');
-});*/
 
-/*app.get('/contacto.html', (req, res) =>{
-    res.sendFile(__dirname + '/views/contacto.html');
-});*/
+// ************ Middlewares - (don't touch) ************
+app.use(express.static(path.resolve(__dirname, 'public'))); // Necesario para los archivos estáticos en el folder /public
 
+
+// ************ Template Engine - (don't touch) ************
 app.set('view engine', 'ejs');
-app.set('views', './src/views')
+app.set('views', './src/views'); // Define la ubicación de la carpeta de las Vistas
+
+
+// ************ Sistema de Rutas, require y use() ************
+const mainRouter = require('./src/routes/mainRouter'); // Rutas main
+const productsRouter = require('./src/routes/productsRouter'); // Rutas /products
+
+app.use('/', mainRouter);
+app.use('/products', productsRouter);
+
+module.exports = app;
