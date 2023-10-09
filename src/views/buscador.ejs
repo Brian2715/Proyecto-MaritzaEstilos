@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style-buscador.css">
     <%- include('./partials/head.ejs')%>
 </head>
 <body>
     <header>
-        
+        <div class="main-nav">
+            <div class="barra-navegacion">
+                <form action="/search" method="GET" class="search-form">
+                    <button class="b2" type="submit"><i class="fas fa-search"></i></button>
+                    <input class="i2" type="text" name="keywords" placeholder="Buscar productos y artículos...">
+                </form>
+                <form action="/" class="form-button">
+                    <button class="close" type="submit">Volver</button>
+                </form>
+            </div>
+        </div>
     </header>
-    <main>
-
-    </main>
 </body>
 </html>
