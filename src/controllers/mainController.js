@@ -17,7 +17,6 @@ const controller = {
         const arrReina = products.filter((elem) => elem.category === "reina");
 
         //** Pasarserlos a la vista */
-
         res.render('home', {
 			cena: arrCenaBlanca,
             quince: arrQuince,
@@ -27,8 +26,25 @@ const controller = {
     contacto: (req, res) => {
         return res.render('contacto')
     },
+    login: (req, res) => {
+        return res.render('login')
+    },
     buscador: (req, res) => {
         return res.render('buscador')
+    },
+    search: (req, res) => {
+        ///** Capturar info del QueryString */
+        const { keywords } = req.query;
+
+
+        //** Buscar dentro del array */
+        const prodSearch = products.filter( ( prod ) => prod.name.toLowerCase().includes(keywords.toLowerCase()))
+
+
+        //** Pasarserlos a la vista */
+        res.render('results', {
+            results: prodSearch
+        })
     }
 };
 
