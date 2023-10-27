@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <%- include('./partials/head.ejs')%>
+    </head>
+    <body>
+        <header>
+            <%- include('./partials/header.ejs')%>
+        </header>
+        <main>
+            <section class="main-section-one">
+                <h3 class="titulo">Todos los vestidos</h3>
+                <% arrProducts.forEach((prod) => {%>
+                <article class="card">
+                    <img class="img_prod" src="/img/<%= prod.image %>" alt="Imagen de <%= prod.name%>" >
+                    <nav class="card-bottom">
+                        <div class="vestido"><%= prod.name%></div>
+                        <div class="precio">$<%= prod.price%></div>
+                        <div class="comprar">
+                            <a href="/products/detail/<%= prod.id%>">Comprar</a>
+                        </div>  
+                    </nav>  
+                </article>
+                <% }) %>
+            </section>
+        </main>
+        <footer>
+            <%- include('./partials/footer.ejs')%>
+        </footer>
+    </body>
+</html>

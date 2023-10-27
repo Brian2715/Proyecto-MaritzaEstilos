@@ -32,6 +32,9 @@ const controller = {
     buscador: (req, res) => {
         return res.render('buscador')
     },
+    detail: (req,res) => {
+        return res.render('detail')
+    },
     search: (req, res) => {
         ///** Capturar info del QueryString */
         const { keywords } = req.query;

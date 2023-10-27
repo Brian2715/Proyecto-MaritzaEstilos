@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <%- include('./partials/head.ejs')%>
+    </head>
+    <body>
+        <header>
+            <%- include('./partials/header.ejs')%>
+        </header>
+        <main>
+            <section class="main-section-one">
+                <h3 class="titulo">Detalle del vestido: <%= prodFind.name %> </h3>
+                <article class="card">
+                    <img class="img_prod" src="/img/<%= prodFind.image %>" alt="Image de: /img/<%= prodFind.name %>" >
+                    <nav class="card-bottom">
+                        <div class="precio"><%= prodFind.price %></div>
+                        <div class="comprar">
+                            <a href="">Comprar</a>
+                        </div>  
+                    </nav>  
+                </article>
+            </section>
+        </main>
+        <footer>
+            <%- include('./partials/footer.ejs')%>
+        </footer>
+    </body>
+</html>
