@@ -8,7 +8,7 @@ const app = express();
 
 
 // ************ Servidor PORT- (don't touch) ************
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5555;
 
 app.listen(port, () => {
     console.log('Servidor funcionando');
@@ -26,9 +26,9 @@ app.set('views', './src/views'); // Define la ubicación de la carpeta de las Vi
 
 // ************ Sistema de Rutas, require y use() ************
 const mainRouter = require('./src/routes/mainRouter'); // Rutas main
-const productsRouter = require('./src/routes/productsRouter'); // Rutas /products
+// const productsRouter = require('./src/routes/productsRouter'); // Rutas /products
 
 app.use('/', mainRouter);
-app.use('/products', productsRouter);
+// app.use('/products', productsRouter);
 
 module.exports = app;

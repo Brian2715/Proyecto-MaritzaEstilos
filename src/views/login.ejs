@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style-login.css">
+    <%- include('./partials/head.ejs')%>
+</head>
+<body>
+    <header>
+        <%- include('./partials/header.ejs')%>
+    </header>
+    <main>
+        <div class="main-form">
+            <div class="contenedor-form">
+                <form class="form" action="" method="">
+                    <h2 class="title">Mi cuenta</h2>
+                    <p class="msj">Gracias por crear una cuenta. Introduzca su dirección de correo electrónico 
+                        y su contraseña a continuación para iniciar sesión.</p>
+                    <div class="input">
+                        <label for="email">Correo electrónico</label>
+                        <input class="cont" type="email" name="email">
+                    </div>
+                    <div class="input">
+                        <label for="text">Contraseña</label>
+                        <input class="cont" type="password" name="password" id="password">
+                    </div>
+                    <div class="submit">
+                        <a href="">¿Ha olvidado su contraseña?</a>
+                        <button class="boton" type="submit">Iniciar Sesión</button>
+                    </div>
+                    <div class="registrar">
+                        <h4>¿No tiene una cuenta?</h4>
+                        <a href="">Registrarse</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    
+    
+    
+</body>
+</html>
+
+<!-- <div class="contenedor-form">
+    <form class="form" action="">
+        <h2>CONTACTO</h2>
+        <div>
+            <label for="nombre"></label>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido">
+        </div> 
+        <div>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="number"></label>
+            <input type="number" name="number" placeholder="Telefono">
+        </div>
+        <div>
+            <label for="textarea"></label>
+            <textarea name="textarea" id="textarea"  placeholder="Escriba aqui su mensaje"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</div> -->

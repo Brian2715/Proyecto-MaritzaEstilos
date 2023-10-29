@@ -4,6 +4,7 @@ const path = require('path');
 const products = require('../data/productsDataBase.json');
 
 
+
 const controller = {
     home: (req, res) => {
 
@@ -22,6 +23,7 @@ const controller = {
             quince: arrQuince,
             reina: arrReina,
 		})
+        
     },
     contacto: (req, res) => {
         return res.render('contacto')
@@ -31,9 +33,6 @@ const controller = {
     },
     buscador: (req, res) => {
         return res.render('buscador')
-    },
-    detail: (req,res) => {
-        return res.render('detail')
     },
     search: (req, res) => {
         ///** Capturar info del QueryString */
